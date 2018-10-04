@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search_badge"
+        android:title="Search"
+        android:icon="@mipmap/ic_notify"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"/>
+    <item
+        android:id="@+id/notifycation"
+        android:title="Search"
+        android:icon="@mipmap/ic_search"
+        app:showAsAction="ifRoom"/>
+
+    <!--in above android:actionLayout="@layout/search_layout" is base action if defaulty search no need -->
+    <!--this separate layout-->
+
+</menu>
